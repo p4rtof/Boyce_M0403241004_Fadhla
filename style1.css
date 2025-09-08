@@ -152,13 +152,13 @@ h1 {
 @media (max-width: 768px) {
   .hero{
     max-width: 100%;
-    margin: 20px 20px;  /* beri sedikit jarak dari tepi layar hp */
+    margin: 20px 20px;  
     padding: 0;
   }
   .typing {
     max-width: 100%;
-    margin: 20px 20px;  /* beri sedikit jarak dari tepi layar hp */
-    padding: 0;         /* atau padding kecil kalau mau */
+    margin: 20px 20px; 
+    padding: 0;         
   }
 }
 .footer{
