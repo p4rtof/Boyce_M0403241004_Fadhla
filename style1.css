@@ -36,12 +36,7 @@ body {
   color: #fff;
 }
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 50px 20px 50px;
-}
+
 
 .intro {
   max-width: 800px;
@@ -133,17 +128,39 @@ h1 {
   
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 0 40px;
+  max-width: 900px;
+}
+
 .typing {
   font-size: 1.2rem;
   overflow: hidden;
   text-align: justify;
-  display: inline-block ;
+  max-width: 900px;
+  margin: 20px auto 35px auto;
+  padding: 0 40px;
+  /* display: inline-block ; */
   line-height: 1.5;
-  margin: 10px 50px 50px 50px;
-   
-
+  /* margin: 10px 50px 50px 50px; */
 }
 
+@media (max-width: 768px) {
+  .hero{
+    max-width: 100%;
+    margin: 20px 20px;  /* beri sedikit jarak dari tepi layar hp */
+    padding: 0;
+  }
+  .typing {
+    max-width: 100%;
+    margin: 20px 20px;  /* beri sedikit jarak dari tepi layar hp */
+    padding: 0;         /* atau padding kecil kalau mau */
+  }
+}
 .footer{
   text-align: center;
   font-size: 0.9rem;
